@@ -10,3 +10,6 @@ class testReturnValues(unittest.TestCase):
             num.add(i)
         oo(num.nums())
         self.assertEqual(32, len(num.__has))
+
+if __name__  == '__main__':
+   unittest.main()
