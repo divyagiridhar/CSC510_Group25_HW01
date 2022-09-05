@@ -1,7 +1,7 @@
 import csv
 from curses.ascii import isupper
 from Sym import Sym
-from num import Num
+from num import num
 
 filename = open('source.csv', 'r')
 file = csv.DictReader(filename)
@@ -37,7 +37,7 @@ for colName, data in df.items():
         colPosition+=1
     elif colName[0].isupper():
         # print('This col is Num')
-        num = Num(colPosition, colName)
+        num = num(colPosition, colName)
         for value in data:
             num.add(value)
         colPosition+=1
