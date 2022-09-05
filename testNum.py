@@ -11,3 +11,6 @@ class testReturnValues(unittest.TestCase):
         div = num.div()
         print(mid,div)
         self.assertTrue(50 <= mid <= 52) and self.assertTrue(30.5 <= div <= 32)
+
+if __name__  == '__main__':
+    unittest.main()
