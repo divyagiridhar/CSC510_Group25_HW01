@@ -18,7 +18,6 @@ class num:
         self.lo = math.inf
         self.hi = -math.inf
         self.isSorted = True
-        # self.w = s or ""
 
     def nums(self):
         if not self.isSorted:
@@ -28,7 +27,7 @@ class num:
             self.isSorted = True
         return self._has
 
-    def add(self, v, pos):
+    def add(self, v):
         if v != "?":
             self.n += 1
             self.lo = min(v, self.lo)
@@ -41,7 +40,7 @@ class num:
                 self.isSorted = False
                 self._has[pos] = float(v)
 
-    def div(self,):
+    def div(self):
         a = self.nums()
         return (per(a, 0.9) - per(a, 0.1)) / 2.58
 
