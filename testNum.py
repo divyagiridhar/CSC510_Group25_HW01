@@ -1,5 +1,5 @@
 import unittest
-from finalSym import Sym
+from Sym import Sym
 
 class testReturnValues(unittest.TestCase):
     
