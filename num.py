@@ -1,15 +1,15 @@
 import math
 import random
+import statistics as sts
 
-the = {}
-
+theNums = 32
 
 def per(t, p):
     p = math.floor(((p or 0.5) * len(t)) + 0.5)
     return t[max(1, min(len(t), p))]
 
 
-class num:
+class Num:
     def __init__(self, c, s):
         self.n = 0  # items seen
         self.at = c if c else 0  # column  position
@@ -21,28 +21,27 @@ class num:
 
     def nums(self):
         if not self.isSorted:
-            pass
-            # table.sort(self._has)
-        else:
+            self._has.sort()
             self.isSorted = True
         return self._has
 
     def add(self, v):
         if v != "?":
+            v = float(v)
             self.n += 1
             self.lo = min(v, self.lo)
             self.hi = max(v, self.hi)
-            if len(self._has) < the.nums:
+            if len(self._has) < theNums:
                 pos = 1 + len(self._has)
             elif random.random() < the.nums / self.n:
                 pos = random.random(len(self._has))
-            if pos:
-                self.isSorted = False
-                self._has[pos] = float(v)
+                self._has[pos] = v
+                
+            self.isSorted = False
 
     def div(self):
         a = self.nums()
-        return (per(a, 0.9) - per(a, 0.1)) / 2.58
+        return sts.stdev(a)
 
     def mid(self):
         return per(self.nums(), 0.5)
