@@ -33,7 +33,7 @@ class Num:
             self.hi = max(v, self.hi)
             if len(self._has) < theNums:
                 pos = 1 + len(self._has)
-            elif random.random() < the.nums / self.n:
+            elif random.random() < theNums / self.n:
                 pos = random.random(len(self._has))
                 self._has[pos] = v
                 
