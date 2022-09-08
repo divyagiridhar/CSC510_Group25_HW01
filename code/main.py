@@ -1,7 +1,7 @@
 import csv
 from curses.ascii import isupper
 from Sym import Sym
-from num import num
+from num import Num
 
 filename = open('source.csv', 'r')
 file = csv.DictReader(filename)
@@ -30,16 +30,17 @@ df = {"Clndrs": Clndrs, "Volume": Volume, "Hp:": Hp, "Lbs-": Lbs, "Acc+": Acc, "
 colPosition = 0
 for colName, data in df.items():
     if colName[0].islower():
-        # print('This col is sym')
         sym = Sym(colPosition, colName)
         for value in data:
             sym.add(value)
-        colPosition+=1
-    elif colName[0].isupper():
-        # print('This col is Num')
-        num = num(colPosition, colName)
+        div = sym.div()
+        mid = sym.mid()
+        sym.print_Sym(div, mid)
+    if colName[0].isupper():
+        num = Num(colPosition, colName)
         for value in data:
             num.add(value)
-        colPosition+=1
-
-
+        div = num.div()
+        mid = num.mid()
+        num.print_Num(div, mid)
+    colPosition+=1
