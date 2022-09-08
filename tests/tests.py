@@ -6,6 +6,9 @@ from config import t
 
 class testReturnValues(unittest.TestCase):
     
+    def testThe(self):
+        assert True
+    
     def testNum(self):
         t["nums"] = 1000
         numData = {"Cldrs":list(range(1,100+1))}
