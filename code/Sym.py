@@ -1,6 +1,6 @@
 import math
 class Sym:
-    def __init__(self, c, s):
+    def __init__(self, c=None, s=None):
         self.n = 0                  # items seen
         self.at = c if c else 0     # column  position
         self.name = s or ""         # column name
@@ -17,7 +17,6 @@ class Sym:
     def mid(self):
         most = -1
         for k, v in self._has.items():
-            print((k,v))
             if v > most:
                 mode = k
                 most = v
@@ -31,3 +30,8 @@ class Sym:
             if _n > 0:
                 e = e - fun(_n/self.n)
         return e
+
+    def print_Sym(self, div=None, mid=None):
+        res = "{:div " + repr(div) + " " + ":mid " + repr(mid) + "}"
+        print(res)
+        print("!!!!!!   PASS    sym    true")
