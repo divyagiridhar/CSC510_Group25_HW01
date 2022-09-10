@@ -1,7 +1,6 @@
 import math
 import random
-
-the_nums = 32
+from config import t
 
 def per(t, p):
     p = math.floor(((p or 0.5) * len(t)) + 0.5)
@@ -31,11 +30,11 @@ class Num:
             self.n += 1
             self.lo = min(v, self.lo)
             self.hi = max(v, self.hi)
-            if len(self._has) < the_nums:
+            if len(self._has) < t["nums"]:
                 pos = 1 + len(self._has)
                 self._has[pos] = v
             else:
-                if random.random() < (the_Nums / self.n):
+                if random.random() < (t["nums"] / self.n):
                     pos = random.randint(1, len(self._has) - 1)
                 if pos:
                     self.isSorted = False
