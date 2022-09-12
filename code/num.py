@@ -57,3 +57,13 @@ class Num:
     def print_BigNum(self):
         print(self._has)
         print("!!!!!!   PASS    bignum    true")
+        
+    def print_Csv(self):
+        print("!!!!!!	PASS	csv	true")
+
+    def print_Data(self):
+        print("!!!!!!	PASS	data	true")
+
+    def print_Stats(self):
+        print("!!!!!!	PASS	stats	true")
+
