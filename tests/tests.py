@@ -3,6 +3,8 @@ import unittest
 from num import Num
 from Sym import Sym
 from config import t
+from row import Row
+from col import Col
 
 class testReturnValues(unittest.TestCase):
 
@@ -53,7 +55,31 @@ class testReturnValues(unittest.TestCase):
             print(num._has)
             self.assertEqual(32, len(num._has))
             num.print_BigNum()
-        
+      
+    
+    def testCsv(self):
+        n=0
+        csv= Data("../data/source.csv")
+            row()
+            n = n+1
+            if n>10:
+                return
+            else:
+                num.print_Csv() 
+        return true
+
+    def testData(self):
+        d = Data("../data/source.csv")
+        for Col in pairs (d.items()):
+            num.print_Data()
+        return true
+    
+    def testStats(self):
+        data = Data("../data/source.csv")
+        div = Col.div()
+        mid = Col.mid()
+        num.print_Stats()
+        return true
 
 if __name__  == '__main__':
     unittest.main()
