@@ -4,11 +4,12 @@ class data:
         self.rows = {}      #kept data
         
     if type(src) == str:
-        csv(src, Row )
+        csv(src, data().add(row))
     else:
-        pass
+        for _, row in (src or {}):
+            data().add(row)
         
-    def add(xs, row):
+    def add(xs):
         if not self.cols:
             self.cols = Cols(xs)
         else:
@@ -18,16 +19,16 @@ class data:
                 row = push(self.rows, Row(xs))
             for _, todo in (self.cols.x, self.cols.y):
                 for _, col in todo.items():
-                    pass
+                    col.append(row.cells[col.at])
     
     
     
-    def stats(places,showCols,fun,t,v)
-        showCols, fun=showCols or self.cols.y, fun or "mid"
+    def stats(places,showCols,fun,t,v):
+        showCols, fun = showCols or self.cols.y, fun or "mid"
         t = {}
-        for pass
-            v=fun(col)
-            v=type(v)=="number" and rnd(v,places) or V
-            t[cols.name]=V
-            return t
+        for _, col in showCols:
+            v = fun(col)
+            v = (type(v) == float) and rnd(v, places) or v
+            t[col.name] = v
+        return t
     
