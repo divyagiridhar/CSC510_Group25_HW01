@@ -2,7 +2,7 @@ import math
 import re
 import sys
 import random
-from Num import Num 
+from code import Num 
 
 help = " \n\
 CSV : summarized csv file \n\
@@ -17,9 +17,7 @@ OPTIONS:\n\
 -s  --seed      random number seed                    = 10019\n\
 -S  --seperator feild seperator                       = , "
 
-def oo(t):
-    print(str(t))
-    return t
+
 
 def message(status):
     if status:
@@ -35,30 +33,36 @@ def coerce(s):
         try:
             return float(s)
         except ValueError:
-            if s == 'true' or s == 'TRUE' or s == 'True':
+            if s in ['true', 'TRUE', 'True']:
                 return True
-            elif s == 'false' or s == 'FALSE' or s == 'False':
+            elif s in ['false', 'FALSE', 'False']:
                 return False
             return re.match("\s*(.*)\s*", s).string
 
-def csv(src, func, separator):
+def parse_csv(src, separator):
     lines = src.split('\n')
     for line in lines:
-        t = []
-        for ele in line.split(separator):
-            ele = coerce(ele)
-            t.append(ele)
-        
+        line_split = line.split(separator)
+        ans = []
+        for val in line_split:
+            val = coerce(val)
+            ans.append(val)
+
 def copy(t):
-    if type(t) != dict:
+    if type(t) is not dict:
         return t
     u = {}
     for k, v in t.items():
         u[k] = copy(v)
     return u
 
-the = {}
-pattern = r"-(\w+)[\s]*--[\s]*(\w+)[\s]*[^=]*[\s]*=[\s]*(.*)"
-match_list = re.findall(pattern, help)
-for k,x in match_list:
-    the[k] = coerce(x)
+
+def create_the():
+    the = {}
+    tup_list = re.findall(r'[-][\S]+[\s]+[-][-]([\S]+)[^\n]+= ([\S]+)', help)
+
+    for k,x in tup_list:
+        the[k] = coerce(x)
+    return the
+
+the = create_the()
