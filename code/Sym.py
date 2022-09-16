@@ -1,11 +1,12 @@
 import math
+
 class Sym:
-    def __init__(self, c=0, s=""):
+    def __init__(self, c="", s=0):
         self.n = 0                  # items seen
         self.at = c if c else 0     # column  position
         self.name = s or ""         # column name
         self._has = {}              # kept data
-    
+
     def add(self, v):
         if v != "?":
             self.n += 1
@@ -30,6 +31,7 @@ class Sym:
             if _n > 0:
                 e = e - fun(_n/self.n)
         return e
+
 
 if __name__ == '__main__':
     sym = Sym()
