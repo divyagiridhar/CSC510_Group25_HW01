@@ -8,6 +8,14 @@ from test import test_sample
 
 class testReturnValues(unittest.TestCase):
 
+    def oo(self,t):
+        print(str(t))
+        assert True
+
+    def testThe(self):
+        self.oo(Utils.the)
+        assert True
+        
     def testSym(self):
         sym = Sym.Sym()
         for val in ["a", "a", "a", "a", "b", "b", "c"]:
@@ -34,3 +42,6 @@ class testReturnValues(unittest.TestCase):
             num.add(i)
         self.oo(num.nums())
         self.assertEqual(32, len(num._has))
+        
+if __name__  == '__main__':
+    unittest.main()
