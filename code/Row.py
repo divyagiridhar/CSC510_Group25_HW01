@@ -15,7 +15,3 @@ class Row:
         self.isEvaled = False
         
         return self.cells, self.cooked, self.isEvaled
-    
-    
-    
-  
