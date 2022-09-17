@@ -1,3 +1,5 @@
+from Utils import copy
+
 def copy(t):
     if type(t) != dict:
         return t
@@ -13,3 +15,7 @@ class Row:
         self.isEvaled = False
         
         return self.cells, self.cooked, self.isEvaled
+    
+    
+    
+  
