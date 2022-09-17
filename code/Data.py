@@ -2,7 +2,7 @@ from Cols import Cols
 from Rows import Row
 from Utils import parse_csv
 
-class data:
+class Data:
     def __init__(self, src, nums, seperator):
         self.cols = None
         self.rows = []
