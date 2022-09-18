@@ -1,6 +1,6 @@
 import math
 import random
-from code import Utils
+import Utils
 
 def per(t, p):
     p = math.floor(((p or 0.5) * len(t)) + 0.5)
