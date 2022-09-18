@@ -51,10 +51,12 @@ The Python Code for `Cols`, `Data`, `Num`, `Row`, `Sym` and `Utils` is available
 The Test Cases for all the Classes are also available <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/tests/test_sample.py"> here </a>
 <br><br>
 
-`Classes`
 
 <table>
-    
+  <tr>
+    <td align="center" colspan = "6"> Classes </td>
+  </tr>
+  
   <tr>
     <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Cols.py"> Cols </a> </td>
     <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Data.py"> Data </a> </td>
@@ -63,6 +65,7 @@ The Test Cases for all the Classes are also available <a href = "https://github.
     <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Sym.py"> Sym </a> </td>
     <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Utils.py"> Utils </a> </td>
   </tr>
+
   
 </table>
 
