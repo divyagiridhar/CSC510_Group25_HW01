@@ -2,7 +2,7 @@ import math
 import re
 import sys
 import random
-from code import Num 
+import Num 
 
 help = " \n\
 CSV : summarized csv file \n\
