@@ -46,5 +46,41 @@ class testReturnValues(unittest.TestCase):
         self.oo(num.nums())
         self.assertEqual(32, len(num._has))
         
+    def testCsv(self):
+        n = 0
+        def fun(row):
+            n = n + 1
+            if n > 10:
+                return
+            else:
+                self.oo(row)
+        csv("../data/source.csv", fun)
+        return True
+
+    def testData(self):
+        d = Data("../data/source.csv")
+        for _, col in enumerate(d.cols.y):
+            self.oo(col)
+
+    def testStats(self):
+        data = Data("../data/source.csv")
+        def div(col):
+            if not isinstance(col, Num) or not isinstance(col, Num):
+                return None
+            return col.div()
+
+    def mid(col):
+            if not isinstance(col, Num) or not isinstance(col, Num):
+                return None
+            return col.mid()
+
+        print("xmid\t" + self.oo(data.stats(2, data.cols.x, mid)))
+        print("xdiv\t" + self.oo(data.stats(3, data.cols.x, div)))
+        print("ymid\t" + self.oo(data.stats(2, data.cols.y, mid)))
+        print("ydiv\t" + self.oo(data.stats(3, data.cols.y, div)))
+        
+        return True
+        
+        
 if __name__  == '__main__':
     unittest.main()
