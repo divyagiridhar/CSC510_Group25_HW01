@@ -1,5 +1,5 @@
-<h1 align = "center"> CSC510 Software Engineering Group 25 </h1>
-<h2 align = "center"> Homework - 2,3,4,5 </h2>
+
+<img src="https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/data/images/LUA%20to%20Python%20Banner.png">
 
 <h2> Table of Contents </h2>
 <li> 
