@@ -17,17 +17,9 @@ OPTIONS:\n\
 -s  --seed      random number seed                    = 10019\n\
 -S  --seperator feild seperator                       = , "
 
-
-
-def message(status):
-    if status:
-        return "PASS"
-    else:
-        return "FAIL"
-
 def coerce(s):
     s = s.strip()
-    if s.isnumeric():
+    if isinstance(s, int):
         return int(s)
     else:
         try:
@@ -37,25 +29,42 @@ def coerce(s):
                 return True
             elif s in ['false', 'FALSE', 'False']:
                 return False
-            return re.match("\s*(.*)\s*", s).string
 
-def parse_csv(src, separator):
-    lines = src.split('\n')
-    for line in lines:
-        line_split = line.split(separator)
-        ans = []
-        for val in line_split:
-            val = coerce(val)
-            ans.append(val)
+def oo(t):
+    if isinstance(t, list):
+        out = "{" + " ".join(t)[:-1] + "}"
+    elif isinstance(t, dict):
+        out = o(t)
+    else:
+        dict_obj = vars(t)
+        del dict_obj['_has']
+        out = (o(vars(t)))
+    print(out)
+    return out
+
+def o(t):
+    out = "{"
+    for k,v in t.items():
+        out += ":" + str(k) + " " + str(v) + " "
+    out = out.strip()
+    out += "}"
+    return out
+
+def parse_csv(fname, fun=None, sep=','):
+    with open(fname, "r") as csv_file:
+        csv_file = csv_file.readlines()
+        for line in csv_file:
+            row = line.split(sep)
+            if fun:
+                fun(row)
 
 def copy(t):
-    if type(t) is not dict:
+    if type(t) != dict:
         return t
     u = {}
     for k, v in t.items():
         u[k] = copy(v)
     return u
-
 
 def create_the():
     the = {}
@@ -66,3 +75,5 @@ def create_the():
     return the
 
 the = create_the()
+
+
