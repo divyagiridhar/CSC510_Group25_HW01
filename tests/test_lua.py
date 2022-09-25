@@ -4,10 +4,11 @@ sys.path.append("../code/")
 
 import pytest
 import unittest
-import Num
+from Num import Num
 import Sym
 import Utils
 import random
+from Data import Data
 
 class testReturnValues(unittest.TestCase):
 
@@ -49,6 +50,7 @@ class testReturnValues(unittest.TestCase):
     def testCsv(self):
         n = 0
         def fun(row):
+            nonlocal n
             n = n + 1
             if n > 10:
                 return
@@ -69,15 +71,15 @@ class testReturnValues(unittest.TestCase):
                 return None
             return col.div()
 
-    def mid(col):
+        def mid(col):
             if not isinstance(col, Num) or not isinstance(col, Num):
                 return None
             return col.mid()
 
-        print("xmid\t" + self.oo(data.stats(2, data.cols.x, mid)))
-        print("xdiv\t" + self.oo(data.stats(3, data.cols.x, div)))
-        print("ymid\t" + self.oo(data.stats(2, data.cols.y, mid)))
-        print("ydiv\t" + self.oo(data.stats(3, data.cols.y, div)))
+        print("xmid\t", data.stats(2, data.cols.x, mid))
+        print("xdiv\t", data.stats(3, data.cols.x, div))
+        print("ymid\t", data.stats(2, data.cols.y, mid))
+        print("ydiv\t", data.stats(3, data.cols.y, div))
         
         return True
         
