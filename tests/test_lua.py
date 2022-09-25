@@ -4,7 +4,7 @@ sys.path.append("../code/")
 
 import pytest
 import unittest
-from Num import Num
+import Num
 import Sym
 import Utils
 import random
