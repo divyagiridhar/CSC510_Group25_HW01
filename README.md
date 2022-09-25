@@ -15,6 +15,9 @@
   <a href="https://github.com/divyagiridhar/CSC510_Group25_HW02/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/divyagiridhar/CSC510_Group25_HW02?color=important">
   </a>
+  <a href="https://zenodo.org/badge/latestdoi/532400224">
+    <img src="https://zenodo.org/badge/532400224.svg" alt="DOI"></a>
+  </a>
   
 </div>
 
