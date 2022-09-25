@@ -1,31 +1,26 @@
-from Sym import Sym
-from Num import Num
-
-def push(t, x):
-    t[1 + len(t)] = x
-    return x
+from curses.ascii import isupper
+import re
+import Sym
+import Num
 
 class Cols:
     def __init__(self, names):
-        self.names=names  
-        self.all=[]       
-        self.klass=None   
-        self.x=[]         
-        self.y=[]         
+        self.names=names  # all column names
+        self.all=[]       # all the columns (including the skipped ones)
+        self.klass=None   # the single dependent klass column (if it exists)
+        self.x=[]         # independent columns (that are not skipped)
+        self.y=[]         # depedent columns (that are not skipped)
         
-        for c, s in names.items():
-            if s.isupper():
-                Num(c, s)
-                col = push(self.all, (c, s))
-            if s.islower():
-                Sym(c, s)
-                col = push(self.all, (c, s))
-            
-            if not s.find(':'):
-                if s.find('+' or '-'):
-                    self.y.append(col) 
-                else:
-                    self.x.append(col)
-                
-            if s.find('!'):
+        for c in range(0, len(names)):
+            s =  re.sub('\n', '' , names[c]) 
+            if s[0].isupper():
+                col = Num.Num(c, s)
+            else:
+                col = Sym.Sym(c, s)
+
+            if s[-1] in ["+", "-", "!"]:
+                self.y.append(col) 
+            else:
+                self.x.append(col)
+            if "!$" in s:
                 self.klass = col
