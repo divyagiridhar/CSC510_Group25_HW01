@@ -64,6 +64,10 @@ python --version
 ``` bash
 pip install -r requirements. txt
 ``` 
+> To view the results of tasks, execute the following file.
+``` bash
+../code/python3 main.py
+``` 
 
 <br>
 
