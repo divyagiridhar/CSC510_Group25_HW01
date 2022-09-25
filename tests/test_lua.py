@@ -56,7 +56,7 @@ class testReturnValues(unittest.TestCase):
                 return
             else:
                 self.oo(row)
-        csv("../data/source.csv", fun)
+        Utils.parse_csv("../data/source.csv", fun)
         return True
 
     def testData(self):
