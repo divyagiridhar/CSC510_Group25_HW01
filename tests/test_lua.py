@@ -3,11 +3,11 @@ sys.path.append("../code/")
 
 import pytest
 import unittest
-from code import Num
-from code import Sym
-from code import Utils
+import Num
+import Sym
+import Utils
 import random
-from code import Data
+import Data
 
 class testReturnValues(unittest.TestCase):
 
