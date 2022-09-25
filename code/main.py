@@ -48,6 +48,7 @@ def test_data():
     d = Data.Data("../data/source.csv")
     for y in d.cols.y:
         Utils.oo(y)
+    print("!!!!!!	PASS	data	true\n\n")
     return True
 
 def test_stats():
