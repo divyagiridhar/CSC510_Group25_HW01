@@ -36,13 +36,13 @@ def test_bignum():
     return 32 == len(num._has)
 
 def test_data():
-    d = Data.Data("../data/data.csv")
+    d = Data.Data("../data/source.csv")
     for y in d.cols.y:
         Utils.oo(y)
     return True
 
 def test_stats():
-    data = Data.Data("../data/data.csv")
+    data = Data.Data("../data/source.csv")
     def div(col):
         return col.div()
     
@@ -62,7 +62,7 @@ def test_csv():
         global n 
         n+=1
         return n if n>10 else Utils.oo(r)
-    Utils.parse_csv("../data/data.csv", function_row)
+    Utils.parse_csv("../data/source.csv", function_row)
     return True
 
 test_the()
