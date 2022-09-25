@@ -1,4 +1,3 @@
-from curses.ascii import isupper
 import re
 import Sym
 import Num
