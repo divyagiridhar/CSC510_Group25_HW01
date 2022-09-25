@@ -52,16 +52,16 @@ class testReturnValues(unittest.TestCase):
                 return
             else:
                 self.oo(row)
-        Utils.parse_csv("/source.csv", fun)
+        Utils.parse_csv("source.csv", fun)
         return True
 
     def testData(self):
-        d = Data.Data("/source.csv")
+        d = Data.Data("source.csv")
         for _, col in enumerate(d.cols.y):
             self.oo(col)
 
     def testStats(self):
-        data = Data.Data("/source.csv")
+        data = Data.Data("source.csv")
         def div(col):
             if not isinstance(col, Num) or not isinstance(col, Num):
                 return None
