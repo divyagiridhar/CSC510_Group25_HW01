@@ -1,44 +1,37 @@
-from Cols import Cols
-from Rows import Row
-from Utils import parse_csv
+import Cols
+import Row
+import Utils
 
 class Data:
-    def __init__(self, src, nums, seperator):
+    def __init__(self, src):
         self.cols = None
         self.rows = []
-        self.n = nums
+        self.n = None
         
         if type(src) == str:
-        parse_csv(src, seperator)
-    else:
-        for row in (src or []):
+            Utils.parse_csv(src, self.add)
+        else:
+            for row in (src or []):
                 self.add(row)
         
     def add(self, xs):
         if not self.cols:
-            self.cols = Cols(xs)
+            self.cols = Cols.Cols(xs)
         else:
             if hasattr(xs,'cells'):
                 self.rows.append(xs)
             else:
-                self.rows.append(Row(xs))
-            row = self.rows[-1]
-            for todo in (self.cols.x, self.cols.y):
-                for col in todo:
-                    col.add(row.cells[col.at], self.n)
+                row = Row.Row(xs)
+                self.rows.append(row)
+                for col in self.cols.x + self.cols.y:
+                        col.add(row.cells[col.at])
     
-    
-    
-    def stats(self, places=2, showCols="data.cols.x", fun = 'mid'):
-        showCols = showCols or self.cols.y
+    def stats(self, round_upto=2, showCols=None, fun=None):
+        showCols, fun = showCols or self.cols.y, fun or self.cols.mid
         t = {}
         for col in showCols:
-            if fun == 'mid':
-                v = col.mid()
-            else:
-                v = fun(col)
-            if isinstance(v, float):
-                v = round(v, places)
+            v = fun(col) 
+            if type(v) == float:
+                v = round(v, round_upto)
             t[col.name] = v
         return t
-    
