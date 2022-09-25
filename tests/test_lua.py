@@ -63,13 +63,9 @@ class testReturnValues(unittest.TestCase):
     def testStats(self):
         data = Data.Data("./data/source.csv")
         def div(col):
-            if not isinstance(col, Num) or not isinstance(col, Num):
-                return None
             return col.div()
 
         def mid(col):
-            if not isinstance(col, Num) or not isinstance(col, Num):
-                return None
             return col.mid()
 
         print("xmid\t", data.stats(2, data.cols.x, mid))
