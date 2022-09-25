@@ -15,12 +15,11 @@ class Num:
         self.lo = float('inf')  # minimum seen
         self.hi = -float('inf')  # maximum seen
         self.isSorted = True  
-
+        self.w = -1
+        if self.name and self.name[-1] != "-":
+            self.w = 1
 
     def nums(self):
-        if not self.isSorted:
-            self._has = sorted(self._has)
-            self.isSorted = True
         return self._has
 
     def add(self, v):
