@@ -1,3 +1,6 @@
+import sys
+sys.path.append("../code/")
+
 import pytest
 import unittest
 from code import Num
