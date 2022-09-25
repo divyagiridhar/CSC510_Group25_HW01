@@ -32,8 +32,3 @@ class Sym:
                 e = e - fun(_n/self.n)
         return e
 
-
-if __name__ == '__main__':
-    sym = Sym()
-    for x in ["a", "a", "a", "a", "b", "b", "c"]:
-        sym.add(x)
