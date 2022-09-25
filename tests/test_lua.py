@@ -1,7 +1,7 @@
 import pytest
 import unittest
 from code import Num
-drom code import Sym
+from code import Sym
 from code import Utils
 import random
 from code import Data
