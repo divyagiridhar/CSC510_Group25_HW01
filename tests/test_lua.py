@@ -1,11 +1,10 @@
 import pytest
 import unittest
-from code import Num
-from code import Sym
-from code import Utils
+import Num
+import Sym
+import Utils
 import random
-from code import Data
-from test import test_lua
+import Data
 
 class testReturnValues(unittest.TestCase):
 
