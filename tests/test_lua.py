@@ -1,13 +1,11 @@
-import sys
-sys.path.append("../code/")
-
 import pytest
 import unittest
-import Num
-import Sym
-import Utils
+from code import Num
+drom code import Sym
+from code import Utils
 import random
-import Data
+from code import Data
+from test import test_lua
 
 class testReturnValues(unittest.TestCase):
 
@@ -55,16 +53,16 @@ class testReturnValues(unittest.TestCase):
                 return
             else:
                 self.oo(row)
-        Utils.parse_csv("source.csv", fun)
+        Utils.parse_csv("./data/source.csv", fun)
         return True
 
     def testData(self):
-        d = Data.Data("source.csv")
+        d = Data.Data("./data/source.csv")
         for _, col in enumerate(d.cols.y):
             self.oo(col)
 
     def testStats(self):
-        data = Data.Data("source.csv")
+        data = Data.Data("./data/source.csv")
         def div(col):
             if not isinstance(col, Num) or not isinstance(col, Num):
                 return None
