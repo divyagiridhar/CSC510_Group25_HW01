@@ -4,11 +4,11 @@ sys.path.append("../code/")
 
 import pytest
 import unittest
-import Num
-import Sym
-import Utils
+from code import Num
+from code import Sym
+from code import Utils
 import random
-from Data import Data
+from code import Data
 
 class testReturnValues(unittest.TestCase):
 
@@ -60,12 +60,12 @@ class testReturnValues(unittest.TestCase):
         return True
 
     def testData(self):
-        d = Data("../data/source.csv")
+        d = Data.Data("../data/source.csv")
         for _, col in enumerate(d.cols.y):
             self.oo(col)
 
     def testStats(self):
-        data = Data("../data/source.csv")
+        data = Data.Data("../data/source.csv")
         def div(col):
             if not isinstance(col, Num) or not isinstance(col, Num):
                 return None
