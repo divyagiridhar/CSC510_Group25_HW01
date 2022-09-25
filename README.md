@@ -59,6 +59,12 @@ This repo seeks to translate a Lua code into Python while maintaining its essent
 python --version
 ```
 
+> Run the following command to install all requirements. 
+
+``` bash
+pip install -r requirements. txt
+``` 
+
 <br>
 
 <h2 id = "classes"> Classes and Test Case </h2>
