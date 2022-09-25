@@ -7,7 +7,26 @@ import random
 import Data
 
 class testReturnValues(unittest.TestCase):
+    
+    def bad():
+        print("-" * 50)
+        print("!!!!!!	CRASH	BAD	false\n")
+        assert True
+        
+    def lists():
+        print("-" * 50)
+        print("!!!!!!	FAIL	LIST	true\n")
+        assert True
 
+    def ls():
+        eg = ['BAD', 'ALL', 'LIST', 'bignum', 'csv', 'data', 'num', 'stats', 'the', 'sym']
+        print("-" * 50)
+        print("\nExamples of pytest test_lua.py -v...")
+        for i in range(len(eg)):
+            print(f'        {eg[i]}\t')
+        print("!!!!!!	PASS	LS	true\n\n")
+        assert True
+    
     def oo(self,t):
         print(str(t))
         assert True
@@ -28,6 +47,7 @@ class testReturnValues(unittest.TestCase):
 
     def testNum(self):
         num = Num.Num()
+        Utils.the['nums'] = 101
         for i in range(1, 100):
             num.add(i)
         mid, div = num.mid(), num.div()
