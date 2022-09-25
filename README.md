@@ -34,6 +34,9 @@
 <li> 
 <a href="#cb"> Contributors </a>
 </li>
+<li> 
+<a href="https://zenodo.org/badge/latestdoi/532400224"><img src="https://zenodo.org/badge/532400224.svg" alt="DOI"></a>
+</li>
 
 <h2 id = "overview"> Overview </h2>
 
