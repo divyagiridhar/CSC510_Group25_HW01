@@ -70,7 +70,7 @@ This repo seeks to translate a Lua code into Python while maintaining its essent
 
 This repo is for users who want to get detailed understanding of LUA working system and converting it into Python
 
-The source LUA code can be found <a href = "(https://github.com/txt/se22/blob/main/etc/pdf/csv.pdf"> here </a>
+The source LUA code can be found <a href = "https://github.com/txt/se22/blob/main/etc/pdf/csv.pdf"> here </a>
 
 <br>
 
