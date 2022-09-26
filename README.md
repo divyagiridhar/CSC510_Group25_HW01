@@ -133,6 +133,11 @@ The Test Cases for all the Classes are also available <a href = "https://github.
 
 > <a href="https://github.com/divyagiridhar/CSC-510-Group-25/blob/main/LICENSE"> MIT </a> License is used in this project. 
 <br>
+
+<h2 id = "help"> Help </h2>
+<a href = "mailto: divyagiridhar97@gmail.com">Divya Giridhar</a>
+<br>
+
 <hr>
   <p id="cb" align = "center">
   | &nbsp;Dhruv Patel &nbsp;|&nbsp; Manan Patel &nbsp;|&nbsp; Ravi Ghevariya &nbsp;|&nbsp; Divya Giridhar &nbsp;|&nbsp; Shreyas Titus |
