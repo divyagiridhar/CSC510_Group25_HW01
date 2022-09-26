@@ -1,4 +1,4 @@
-# Contributing to Atom
+# Contributing to this Repository
 
 :smile::tada::vulcan_salute: Thank you for your contribution! :smile::tada::vulcan_salute:
 
@@ -9,6 +9,7 @@ The following is a set of guidelines for contributing to CSC-510-Group-25 on Git
 [Code of Conduct](#code-of-conduct)
 
 [How Can I Contribute?](#how-can-i-contribute)
+  * [Create an issue](#create-an-issue)
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](#suggesting-enhancements)
   * [Pull Requests](#pull-requests)
@@ -18,6 +19,9 @@ The following is a set of guidelines for contributing to CSC-510-Group-25 on Git
 This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to one of the members of our group. 
 
 ## How Can I Contribute?
+
+### Create an Issue
+But running the test files and checking functionality of classes, you can generate an issue which we can address
 
 ### Reporting Bugs
 
