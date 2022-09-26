@@ -49,6 +49,9 @@
 <li> 
 <a href="#cb"> Contributors </a>
 </li>
+<li> 
+<a href="#help"> Help </a>
+</li>
 
 <h2 id = "overview"> Overview </h2>
 
