@@ -7,9 +7,9 @@ Score:
 |Workload is spread over the whole team (one team member is often Xtimes more productive than the others, but nevertheless, here is a track record that everyone is contributing a lot)|  |  |
 |Number of commits|  |  |
 |Number of commits: by different people|  |  |
-|Issues reports: there are **many**|  |  |
-|Issues are being closed|  |  |
-|DOI badge: exists|  |  |
+|Issues reports: there are **many**| 0 | No issues opened/closed |
+|Issues are being closed| 0 | No issues opened/closed |
+|DOI badge: exists| 3 | Badges exist |
 |Docs: doco generated, format not ugly |  |  |
 |Docs: what: point descriptions of each class/function (in isolation) |  | 
 |Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z|  |  |
@@ -21,11 +21,11 @@ Score:
 |Use of syntax checkers. |  |  |
 |Use of code coverage |  |  |
 |Other automated analysis tools|  |  |
-|Test cases exist|  |  |
-|Test cases are routinely executed|  |  |
-|The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up|  |  |
-|Issues are discussed before they are closed|  |  |
-|Chat channel: exists|  |  |
+|Test cases exist| 3 | 10 test cases exist |
+|Test cases are routinely executed| | |
+|The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up| 3 | Steps to contribute explained |
+|Issues are discussed before they are closed| 0 | No issues opened |
+|Chat channel: exists| 0 | No discussions visible |
 |Test cases: a large proportion of the issues related to handling failing cases.|  |  |
 |Evidence that the whole team is using the same tools: everyone can get to all tools and files|  | 
 |Evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)|  | 
