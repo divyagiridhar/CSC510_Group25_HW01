@@ -21,7 +21,7 @@ This project and everyone participating in it is governed by the [Code of Conduc
 ## How Can I Contribute?
 
 ### Create an Issue
-But running the test files and checking functionality of classes, you can generate an issue which we can address
+By running the test files and checking functionality of classes, you can generate an issue which we can address
 
 ### Reporting Bugs
 
