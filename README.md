@@ -106,7 +106,7 @@ pytest tests/test_lua.py -v
 
 The Python Code for `Cols`, `Data`, `Num`, `Row`, `Sym` and `Utils` is available in this <a href="https://github.com/divyagiridhar/CSC510_Group25_HW02/tree/main/code"> repo </a>
 <br><br>
-The Test Cases for all the Classes are also available <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/tests/test_sample.py"> here </a>
+The Test Cases for all the Classes are also available <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/tests/test_lua.py"> here </a>
 <br><br>
 
 
