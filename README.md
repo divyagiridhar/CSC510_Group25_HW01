@@ -18,7 +18,16 @@
   <a href="https://zenodo.org/badge/latestdoi/532400224">
     <img src="https://zenodo.org/badge/532400224.svg" alt="DOI"></a>
   </a>
-  
+  <a href="https://github.com/divyagiridhar/CSC510_Group25_HW02/actions/workflows/python-app.yml">
+    <img src="https://github.com/divyagiridhar/CSC510_Group25_HW02/actions/workflows/python-app.yml/badge.svg">
+  </a>
+  <a href="https://app.codecov.io/gh/dhruvpatel-9/CSC510_Group25_HW02">
+    <img src="https://img.shields.io/codecov/c/github/divyagiridhar/CSC510_Group25_HW02">
+  </a>
+<a href="https://github.com/divyagiridhar/CSC510_Group25_HW02/actions/workflows/Coverage.yml">
+    <img src="https://github.com/divyagiridhar/CSC510_Group25_HW02/actions/workflows/Coverage.yml/badge.svg">
+  </a>
+
 </div>
 
 <h2> Table of Contents </h2>
