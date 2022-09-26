@@ -32,23 +32,13 @@
 
 <h2> Table of Contents </h2>
 <li> 
-<a href="#overview"> Overview </a> 
+<a href="#Data"> Data </a> 
 </li>
 
 
-<h2 id = "overview"> Overview </h2>
+<h2 id = "Data"> Data </h2>
 
-> Converting LUA Code to Python 
-
-Lua is a powerful scripting language with several functionalities such as : 
-  <ol>
-    <li> Procedural programming </li>
-    <li> Object-oriented programming </li>
-    <li> Functional programming </li>
-    <li> Data-driven programming </li>
-  </ol>
-
-This repo seeks to translate a Lua code into Python while maintaining its essential logic and functionalities.
+The Data which we use for our code is saved in the csv format and stored in this particular folder. 
 
 <br>
 
