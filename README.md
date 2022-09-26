@@ -68,9 +68,9 @@ This repo seeks to translate a Lua code into Python while maintaining its essent
 
 <h2 id = "target audience"> Target Audience </h2>
 
-> This repo is for users who want to get detailed understanding of LUA working system and converting it into Python
+This repo is for users who want to get detailed understanding of LUA working system and converting it into Python
 
-The source LUA code can be found <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Cols.py"> here </a>
+The source LUA code can be found <a href = "[https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Cols.py](https://github.com/txt/se22/blob/main/etc/pdf/csv.pdf)"> here </a>
 
 <br>
 
