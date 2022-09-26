@@ -80,9 +80,9 @@ pip install -r requirements. txt
 ``` bash
 ../code/python main.py
 ``` 
-> To check whether the test caes are running fine, execute the following while in the "../tests" directory
+> To check whether the test caes are running fine, execute the following
 ``` bash
-pytest test_lua.py -v
+pytest tests/test_lua.py -v
 ``` 
 
 <br>
