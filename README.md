@@ -53,10 +53,10 @@
 
 Lua is a powerful scripting language with several functionalities such as : 
   <ol>
-    <li> procedural programming </li>
-    <li> object-oriented programming </li>
-    <li> functional programming </li>
-    <li> data-driven programming </li>
+    <li> Procedural programming </li>
+    <li> Object-oriented programming </li>
+    <li> Functional programming </li>
+    <li> Data-driven programming </li>
   </ol>
 
 This repo seeks to translate a Lua code into Python while maintaining its essential logic and functionalities.
@@ -78,7 +78,11 @@ pip install -r requirements. txt
 ``` 
 > To view the results of tasks, execute the following file.
 ``` bash
-../code/python3 main.py
+../code/python main.py
+``` 
+> To check whether the test caes are running fine, execute the following while in the "../tests" directory
+``` bash
+pytest test_lua.py -v
 ``` 
 
 <br>
