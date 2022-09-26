@@ -135,8 +135,10 @@ The Test Cases for all the Classes are also available <a href = "https://github.
 <br>
 
 <h2 id = "help"> Help </h2>
-YOu can email any queries to the contributors - 
-<a href = "mailto: divyagiridhar97@gmail.com">Divya Giridhar</a>
+You can email any queries to the contributors - 
+  <ol>
+    <a href = "mailto: divyagiridhar97@gmail.com">Divya Giridhar</a>
+  </ol>
 <br>
 
 <hr>
