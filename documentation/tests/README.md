@@ -37,17 +37,7 @@
 
 <h2 id = "test"> Test </h2>
 
-> Converting LUA Code to Python 
-
-Lua is a powerful scripting language with several functionalities such as : 
-  <ol>
-    <li> Procedural programming </li>
-    <li> Object-oriented programming </li>
-    <li> Functional programming </li>
-    <li> Data-driven programming </li>
-  </ol>
-
-This repo seeks to translate a Lua code into Python while maintaining its essential logic and functionalities.
+The test files which have been written to test the functionality of the functions which have been converted from LUA to Python are documented in the HTML file format.
 
 <br>
 
