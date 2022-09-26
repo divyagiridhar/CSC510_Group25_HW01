@@ -32,115 +32,79 @@
 
 <h2> Table of Contents </h2>
 <li> 
-<a href="#overview"> Overview </a> 
+<a href="#Cols.py"> Cols.py </a> 
 </li>
 <li> 
-<a href="#target audience"> Target Audience </a> 
+<a href="#Data.py"> Data.py </a> 
 </li>
 <li> 
-<a href="#gs"> Getting Started </a>
+<a href="#Num.py"> Num.py </a>
 </li>
 <li> 
-<a href="#classes"> Classes and Test Case</a>
+<a href="#Row.py"> Row.py </a>
 </li>
 <li> 
-<a href="#licenses"> License </a> 
+<a href="#Sym.py"> Sym.py </a> 
 </li>
 <li> 
-<a href="#cb"> Contributors </a>
+<a href="#Utils.py"> Utils.py </a>
 </li>
 <li> 
-<a href="#help"> Help </a>
+<a href="#main.py"> main.py </a>
 </li>
 
-<h2 id = "overview"> Overview </h2>
+<h2 id = "Cols.py"> Cols.py </h2>
 
-> Converting LUA Code to Python 
+> Converting LUA Function, Cols to Python 
 
-Lua is a powerful scripting language with several functionalities such as : 
-  <ol>
-    <li> Procedural programming </li>
-    <li> Object-oriented programming </li>
-    <li> Functional programming </li>
-    <li> Data-driven programming </li>
-  </ol>
-
-This repo seeks to translate a Lua code into Python while maintaining its essential logic and functionalities.
+This file seeks to translate a LUA function "Cols" into Python while maintaining its essential logic and functionalities.
 
 <br>
 
-<h2 id = "target audience"> Target Audience </h2>
+<h2 id = "Data.py"> Data.py </h2>
 
-This repo is for users who want to get detailed understanding of LUA working system and converting it into Python
+> Converting LUA Function, Data to Python 
 
-The source LUA code can be found <a href = "https://github.com/txt/se22/blob/main/etc/pdf/csv.pdf"> here </a>
+This file seeks to translate a LUA function "Data" into Python while maintaining its essential logic and functionalities.
 
 <br>
 
 
-<h2 id = "gs"> Getting Started </h2>
+<h2 id = "Num.py"> Num.py </h2>
 
-> To run these programs make sure you have python version 3 and pytest version 7 installed.
+> Converting LUA Function Num to Python 
 
-``` bash
-python --version
-```
-
-> Run the following command to install all requirements. 
-
-``` bash
-pip install -r requirements. txt
-``` 
-> To view the results of tasks, execute the following file.
-``` bash
-python code/main.py
-``` 
-> To check whether the test caes are running fine, execute the following file.
-``` bash
-pytest tests/test_lua.py -v
-``` 
+This file seeks to translate a LUA function "Num" into Python while maintaining its essential logic and functionalities.
 
 <br>
 
-<h2 id = "classes"> Classes and Test Case </h2>
+<h2 id = "Row.py"> Row.py </h2>
 
-The Python Code for `Cols`, `Data`, `Num`, `Row`, `Sym` and `Utils` is available in this <a href="https://github.com/divyagiridhar/CSC510_Group25_HW02/tree/main/code"> repo </a>
-<br><br>
-The Test Cases for all the Classes are also available <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/tests/test_lua.py"> here </a>
-<br><br>
+> Converting LUA Function Row to Python 
 
-
-<table>
-  <tr>
-    <td align="center" colspan = "6"> Classes </td>
-  </tr>
-  
-  <tr>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Cols.py"> Cols </a> </td>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Data.py"> Data </a> </td>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Num.py">Num </a> </td>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Row.py"> Row </a> </td>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Sym.py"> Sym </a> </td>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Utils.py"> Utils </a> </td>
-  </tr>
-
-  
-</table>
+This file seeks to translate a LUA function "Row" into Python while maintaining its essential logic and functionalities.
 
 <br>
 
-<h2 id = "licenses"> Licenses </h2>
+<h2 id = "Sym.py"> Sym.py </h2>
 
-> <a href="https://github.com/divyagiridhar/CSC-510-Group-25/blob/main/LICENSE"> MIT </a> License is used in this project. 
+> Converting LUA Function Sym to Python 
+
+This file seeks to translate a LUA function "Sym" into Python while maintaining its essential logic and functionalities.
+
+<h2 id = "Utils.py"> Utils.py </h2>
+
+> Converting LUA Function Utils to Python 
+
+This file seeks to translate a LUA function "Utils" into Python while maintaining its essential logic and functionalities.
+
 <br>
 
-<h2 id = "help"> Help </h2>
-You can email any queries to the contributors - 
-  <ol>
-    <a href = "mailto: divyagiridhar97@gmail.com">Divya Giridhar</a>
-  </ol>
-<br>
+<h2 id = "main.py"> main.py </h2>
 
+This file is the main function in our program which calls all the other functions which we have implemented in this homework assignment.
+
+<br>
 <hr>
   <p id="cb" align = "center">
   | &nbsp;Dhruv Patel &nbsp;|&nbsp; Manan Patel &nbsp;|&nbsp; Ravi Ghevariya &nbsp;|&nbsp; Divya Giridhar &nbsp;|&nbsp; Shreyas Titus |
