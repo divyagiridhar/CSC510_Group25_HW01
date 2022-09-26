@@ -32,28 +32,10 @@
 
 <h2> Table of Contents </h2>
 <li> 
-<a href="#overview"> Overview </a> 
-</li>
-<li> 
-<a href="#target audience"> Target Audience </a> 
-</li>
-<li> 
-<a href="#gs"> Getting Started </a>
-</li>
-<li> 
-<a href="#classes"> Classes and Test Case</a>
-</li>
-<li> 
-<a href="#licenses"> License </a> 
-</li>
-<li> 
-<a href="#cb"> Contributors </a>
-</li>
-<li> 
-<a href="#help"> Help </a>
+<a href="#test_lua.py"> test_lua.py </a> 
 </li>
 
-<h2 id = "overview"> Overview </h2>
+<h2 id = "test_lua.py"> test_lua.py </h2>
 
 > Converting LUA Code to Python 
 
@@ -67,78 +49,6 @@ Lua is a powerful scripting language with several functionalities such as :
 
 This repo seeks to translate a Lua code into Python while maintaining its essential logic and functionalities.
 
-<br>
-
-<h2 id = "target audience"> Target Audience </h2>
-
-This repo is for users who want to get detailed understanding of LUA working system and converting it into Python
-
-The source LUA code can be found <a href = "https://github.com/txt/se22/blob/main/etc/pdf/csv.pdf"> here </a>
-
-<br>
-
-
-<h2 id = "gs"> Getting Started </h2>
-
-> To run these programs make sure you have python version 3 and pytest version 7 installed.
-
-``` bash
-python --version
-```
-
-> Run the following command to install all requirements. 
-
-``` bash
-pip install -r requirements. txt
-``` 
-> To view the results of tasks, execute the following file.
-``` bash
-python code/main.py
-``` 
-> To check whether the test caes are running fine, execute the following file.
-``` bash
-pytest tests/test_lua.py -v
-``` 
-
-<br>
-
-<h2 id = "classes"> Classes and Test Case </h2>
-
-The Python Code for `Cols`, `Data`, `Num`, `Row`, `Sym` and `Utils` is available in this <a href="https://github.com/divyagiridhar/CSC510_Group25_HW02/tree/main/code"> repo </a>
-<br><br>
-The Test Cases for all the Classes are also available <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/tests/test_lua.py"> here </a>
-<br><br>
-
-
-<table>
-  <tr>
-    <td align="center" colspan = "6"> Classes </td>
-  </tr>
-  
-  <tr>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Cols.py"> Cols </a> </td>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Data.py"> Data </a> </td>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Num.py">Num </a> </td>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Row.py"> Row </a> </td>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Sym.py"> Sym </a> </td>
-    <td> <a href = "https://github.com/divyagiridhar/CSC510_Group25_HW02/blob/main/code/Utils.py"> Utils </a> </td>
-  </tr>
-
-  
-</table>
-
-<br>
-
-<h2 id = "licenses"> Licenses </h2>
-
-> <a href="https://github.com/divyagiridhar/CSC-510-Group-25/blob/main/LICENSE"> MIT </a> License is used in this project. 
-<br>
-
-<h2 id = "help"> Help </h2>
-You can email any queries to the contributors - 
-  <ol>
-    <a href = "mailto: divyagiridhar97@gmail.com">Divya Giridhar</a>
-  </ol>
 <br>
 
 <hr>
