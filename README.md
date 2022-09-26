@@ -93,9 +93,9 @@ pip install -r requirements. txt
 ``` 
 > To view the results of tasks, execute the following file.
 ``` bash
-../code/python main.py
+python code/main.py
 ``` 
-> To check whether the test caes are running fine, execute the following
+> To check whether the test caes are running fine, execute the following file.
 ``` bash
 pytest tests/test_lua.py -v
 ``` 
