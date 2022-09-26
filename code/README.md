@@ -57,7 +57,7 @@
 
 > Converting LUA Function, Cols to Python 
 
-
+This file seeks to translate a LUA function "Cols" into Python while maintaining its essential logic and functionalities.
 
 <br>
 
@@ -65,7 +65,7 @@
 
 > Converting LUA Function, Data to Python 
 
-
+This file seeks to translate a LUA function "Data" into Python while maintaining its essential logic and functionalities.
 
 <br>
 
@@ -74,6 +74,7 @@
 
 > Converting LUA Function Num to Python 
 
+This file seeks to translate a LUA function "Num" into Python while maintaining its essential logic and functionalities.
 
 <br>
 
@@ -81,20 +82,27 @@
 
 > Converting LUA Function Row to Python 
 
+This file seeks to translate a LUA function "Row" into Python while maintaining its essential logic and functionalities.
+
 <br>
 
 <h2 id = "Sym.py"> Sym.py </h2>
 
 > Converting LUA Function Sym to Python 
 
+This file seeks to translate a LUA function "Sym" into Python while maintaining its essential logic and functionalities.
+
 <h2 id = "Utils.py"> Utils.py </h2>
 
 > Converting LUA Function Utils to Python 
 
+This file seeks to translate a LUA function "Utils" into Python while maintaining its essential logic and functionalities.
 
 <br>
 
 <h2 id = "main.py"> main.py </h2>
+
+This file is the main function in our program which calls all the other functions which we have implemented in this homework assignment.
 
 <br>
 <hr>
