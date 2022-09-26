@@ -32,75 +32,64 @@
 
 <h2> Table of Contents </h2>
 <li> 
-<a href="#Cols.py"> Cols.py </a> 
+<a href="#Cols.html"> Cols.html </a> 
 </li>
 <li> 
-<a href="#Data.py"> Data.py </a> 
+<a href="#Data.html"> Data.html </a> 
 </li>
 <li> 
-<a href="#Num.py"> Num.py </a>
+<a href="#Num.html"> Num.html </a>
 </li>
 <li> 
-<a href="#Row.py"> Row.py </a>
+<a href="#Row.html"> Row.html </a>
 </li>
 <li> 
-<a href="#Sym.py"> Sym.py </a> 
+<a href="#Sym.html"> Sym.html </a> 
 </li>
 <li> 
-<a href="#Utils.py"> Utils.py </a>
+<a href="#Utils.html"> Utils.html </a>
 </li>
 <li> 
-<a href="#main.py"> main.py </a>
+<a href="#main.html"> main.html </a>
 </li>
 
-<h2 id = "Cols.py"> Cols.py </h2>
+<h2 id = "Cols.html"> Cols.html </h2>
 
-> Converting LUA Function, Cols to Python 
-
-This file seeks to translate a LUA function "Cols" into Python while maintaining its essential logic and functionalities.
+This file documents the LUA function "Cols" in HTML format.
 
 <br>
 
-<h2 id = "Data.py"> Data.py </h2>
+<h2 id = "Data.html"> Data.html </h2>
 
-> Converting LUA Function, Data to Python 
-
-This file seeks to translate a LUA function "Data" into Python while maintaining its essential logic and functionalities.
+This file documents the LUA function "Data" in HTML format.
 
 <br>
 
 
-<h2 id = "Num.py"> Num.py </h2>
+<h2 id = "Num.html"> Num.html </h2>
 
-> Converting LUA Function Num to Python 
-
-This file seeks to translate a LUA function "Num" into Python while maintaining its essential logic and functionalities.
+This file documents the LUA function "Num" in HTML format.
 
 <br>
 
-<h2 id = "Row.py"> Row.py </h2>
+<h2 id = "Row.html"> Row.html </h2>
 
-> Converting LUA Function Row to Python 
-
-This file seeks to translate a LUA function "Row" into Python while maintaining its essential logic and functionalities.
+This file documents the LUA function "Row" in HTML format.
 
 <br>
 
-<h2 id = "Sym.py"> Sym.py </h2>
+<h2 id = "Sym.html"> Sym.html </h2>
 
-> Converting LUA Function Sym to Python 
+This file documents the LUA function "Sym" in HTML format.
 
-This file seeks to translate a LUA function "Sym" into Python while maintaining its essential logic and functionalities.
 
-<h2 id = "Utils.py"> Utils.py </h2>
+<h2 id = "Utils.html"> Utils.html </h2>
 
-> Converting LUA Function Utils to Python 
-
-This file seeks to translate a LUA function "Utils" into Python while maintaining its essential logic and functionalities.
+This file documents the LUA function "Utils" in HTML format.
 
 <br>
 
-<h2 id = "main.py"> main.py </h2>
+<h2 id = "main.html"> main.html </h2>
 
 This file is the main function in our program which calls all the other functions which we have implemented in this homework assignment.
 
