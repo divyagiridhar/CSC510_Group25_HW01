@@ -38,13 +38,13 @@
 <a href="#target audience"> Target Audience </a> 
 </li>
 <li> 
+<a href="#classes"> Classes and Test Case</a>
+</li>
+<li> 
 <a href="#gs"> Getting Started </a>
 </li>
 <li> 
 <a href="#ins"> Instructions to run the Tests and Display Results </a>
-</li>
-<li> 
-<a href="#classes"> Classes and Test Case</a>
 </li>
 <li> 
 <a href="#licenses"> License </a> 
@@ -81,45 +81,6 @@ The source LUA code can be found <a href = "https://github.com/txt/se22/blob/mai
 <br>
 
 
-<h2 id = "gs"> Getting Started </h2>
-
-> To run these programs make sure you have python version 3 and pytest version 7 installed.
-
-``` bash
-python --version
-```
-
-> Run the following command to install all requirements. 
-
-``` bash
-pip install -r requirements. txt
-``` 
-
-<h2 id = "ins"> Instructions to run the Tests and Display Results </h2>
-
-> Initially you need to add the following paths to the Environment variables
-``` bash
-...<path to directory>\CSC510_Group25_HW02-main\code
-...<path to directory>\CSC510_Group25_HW02-main\data
-``` 
-
-> Open the following directory in Command Prompt using
-``` bash
-cd ...<path to directory>\CSC510_Group25_HW02-main
-```
-
-> To check whether the test caes are running correctly, execute the following file.
-``` bash
-pytest tests/test_lua.py -v
-``` 
-
-> To view the results of tasks, execute the following file.
-``` bash
-python code/main.py
-``` 
-
-<br>
-
 <h2 id = "classes"> Classes and Test Case </h2>
 
 The Python Code for `Cols`, `Data`, `Num`, `Row`, `Sym` and `Utils` is available in this <a href="https://github.com/divyagiridhar/CSC510_Group25_HW02/tree/main/code"> repo </a>
@@ -144,6 +105,54 @@ The Test Cases for all the Classes are also available <a href = "https://github.
 
   
 </table>
+
+<br>
+
+
+<h2 id = "gs"> Getting Started </h2>
+
+> To run these programs make sure you have python version 3 and pytest version 7 installed.
+
+``` bash
+python --version
+```
+
+> Run the following command to install all requirements. 
+
+``` bash
+pip install -r requirements. txt
+``` 
+
+<h2 id = "ins"> Instructions to run the Tests and Display Results </h2>
+
+> Initially you need to add the following paths to the Environment variables under `System Requirements\Advanced\Environment Variables\System Variables\Path\New`
+``` bash
+...<path to directory>\CSC510_Group25_HW02-main\code
+...<path to directory>\CSC510_Group25_HW02-main\data
+``` 
+
+`For Example` <br>
+<img src="data/images/Screenshot 2022-09-27 114745.png" width='300'>
+
+> Open the following directory in Command Prompt using
+``` bash
+cd ...<path to directory>\CSC510_Group25_HW02-main
+```
+
+> To check whether the test caes are running correctly, execute the following file.
+``` bash
+pytest tests/test_lua.py -v
+``` 
+`Example output` <br>
+<img src="data/images/Screenshot 2022-09-27 114557.png">
+
+> To view the results of tasks, execute the following file.
+``` bash
+python code/main.py
+``` 
+`Example output` <br>
+<img src="data/images/Screenshot 2022-09-27 120034.png">
+<img src="data/images/Screenshot 2022-09-27 120106.png">
 
 <br>
 
