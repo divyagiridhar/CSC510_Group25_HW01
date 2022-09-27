@@ -1,6 +1,3 @@
-import sys
-sys.path.insert(0, './code')
-
 import Utils
 import Sym 
 import Num
@@ -69,7 +66,7 @@ def test_bignum():
     return 32 == len(num._has)
 
 def test_data():
-    d = Data.Data("../data/source.csv")
+    d = Data.Data("./data/source.csv")
     print("-" * 50)
     for y in d.cols.y:
         Utils.oo(y)
@@ -77,7 +74,7 @@ def test_data():
     return True
 
 def test_stats():
-    data = Data.Data("../data/source.csv")
+    data = Data.Data("./data/source.csv")
     def div(col):
         return col.div()
     
@@ -101,7 +98,7 @@ def test_csv():
         n+=1
         return n if n>10 else Utils.oo(r)
     print("-" * 50)
-    Utils.parse_csv("../data/source.csv", function_row)
+    Utils.parse_csv("./data/source.csv", function_row)
     print("!!!!!!	PASS	csv	true\n\n")
     return True
 
