@@ -139,14 +139,14 @@ pip install -r requirements. txt
 cd ...<path to directory>\CSC510_Group25_HW02-main
 ```
 
-> To check whether the test caes are running correctly, execute the following file.
+> To check whether the test caes are running correctly, execute the following command.
 ``` bash
 pytest tests/test_lua.py -v
 ``` 
 `Example output` <br>
 <img src="data/images/Screenshot 2022-09-27 114557.png">
 
-> To view the results of tasks, execute the following file.
+> To view the results of tasks, execute the following command.
 ``` bash
 python code/main.py
 ``` 
