@@ -41,6 +41,9 @@
 <a href="#gs"> Getting Started </a>
 </li>
 <li> 
+<a href="#ins"> Instructions to run the Tests and Display Results </a>
+</li>
+<li> 
 <a href="#classes"> Classes and Test Case</a>
 </li>
 <li> 
@@ -91,13 +94,28 @@ python --version
 ``` bash
 pip install -r requirements. txt
 ``` 
+
+<h2 id = "ins"> Instructions to run the Tests and Display Results </h2>
+
+> Initially you need to add the following paths to the Environment variables
+``` bash
+...<path to directory>\CSC510_Group25_HW02-main\code
+...<path to directory>\CSC510_Group25_HW02-main\data
+``` 
+
+> Open the following directory in Command Prompt using
+``` bash
+cd ...<path to directory>\CSC510_Group25_HW02-main
+```
+
+> To check whether the test caes are running correctly, execute the following file.
+``` bash
+pytest tests/test_lua.py -v
+``` 
+
 > To view the results of tasks, execute the following file.
 ``` bash
 python code/main.py
-``` 
-> To check whether the test caes are running fine, execute the following file.
-``` bash
-pytest tests/test_lua.py -v
 ``` 
 
 <br>
