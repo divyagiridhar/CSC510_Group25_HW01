@@ -20,9 +20,9 @@ Score:
 |Use of code formatters. | 0 | None |
 |Use of syntax checkers. | 0 | None |
 |Use of code coverage | 0 | None |
-|Other automated analysis tools|  |  |
+|Other automated analysis tools| 0 | None |
 |Test cases exist| 3 | 10 test cases exist |
-|Test cases are routinely executed| | |
+|Test cases are routinely executed| 3 | Executed for each hw |
 |The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up| 3 | Steps to contribute explained |
 |Issues are discussed before they are closed| 0 | No issues opened |
 |Chat channel: exists| 0 | No discussions visible |
