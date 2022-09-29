@@ -166,10 +166,14 @@ You can email any queries to the contributors -
   <ol>
     <a href = "mailto: divyagiridhar97@gmail.com">Divya Giridhar</a>
   </ol>
+  <ol>
+    <a href = "mailto: shreyastitus@gmail.com">Shreyas Titus</a>
+  </ol>
 <br>
 
 <hr>
   <p id="cb" align = "center">
   | &nbsp;Dhruv Patel &nbsp;|&nbsp; Manan Patel &nbsp;|&nbsp; Ravi Ghevariya &nbsp;|&nbsp; Divya Giridhar &nbsp;|&nbsp; Shreyas Titus |
   </p>
+  
 <hr>
