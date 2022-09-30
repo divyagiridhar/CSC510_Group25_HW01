@@ -1,6 +1,6 @@
 Group : https://github.com/Surya-06/SE-Proj22-Team11
 
-Score : 36
+Score : 38
 
 |Notes|Score|Evidence|
 |-----|---------|---------|
@@ -27,7 +27,7 @@ Score : 36
 |Test cases are routinely executed| 3 | Executed |
 |The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up| 2 | Explained rules to contribute |
 |Issues are discussed before they are closed| 0 | No |
-|Chat channel: exists| 0 | No Discussion |
+|Chat channel: exists| 2 | No Discussion |
 |Test cases: a large proportion of the issues related to handling failing cases | 0 | Not Found |
 |Evidence that the whole team is using the same tools: everyone can get to all tools and files| 3 | GH Insights |
 |Evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)| 3 | 
