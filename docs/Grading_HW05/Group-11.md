@@ -32,5 +32,5 @@ Score : 38
 |Evidence that the whole team is using the same tools: everyone can get to all tools and files| 3 | GH Insights |
 |Evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)| 3 | 
 |Evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)| 0 | N/A |
-|Evidence that the members of the team are working across multiple places in the code base|  | 
+|Evidence that the members of the team are working across multiple places in the code base| 3 | 
 |Short release cycles | 0 | N/A |
