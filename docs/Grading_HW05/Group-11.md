@@ -15,8 +15,8 @@ Score : 38
 |Docs: doco generated, format not ugly | 0 | Not Found |
 |Docs: what: point descriptions of each class/function (in isolation) | 0 | 
 |Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| 0 | Not Found |
-|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing| 0 | Not Found |
-|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.| 3 | Not applicable for HW |
+|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing| 3 | Not Found |
+|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.| 0 | Not applicable for HW |
 |Use of version control tools| 3 | GH Insights |
 |Use of style checkers | 0 | None |
 |Use of code formatters. | 0 | None |
