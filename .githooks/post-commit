@@ -1,0 +1,20 @@
+#! /bin/bash
+echo 'Git commit successful. Running test suite'
+homedir=$(git rev-parse --show-toplevel)
+cd $homedir
+
+echo '============================= Running Code Coverage =========================\n'
+coverage run -m test.test_csv
+echo $(coverage report -m)
+
+echo 'Test suite ended'
+echo '============================ End of coverage report =========================\n'
+
+cd documentation/code
+python -m pdoc ../code/* -o .
+
+cd ..
+cd tests
+python -m pdoc ../tests/* -o .
+
+echo 'Regenerated documentation'
