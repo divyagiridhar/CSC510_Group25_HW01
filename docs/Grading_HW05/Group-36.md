@@ -1,15 +1,17 @@
+Group: https://github.com/nakraft/CSC510
+
 Score: 
 
 |Notes|Score|Evidence|
 |-----|---------|---------|
-|Video1|  |  | 
-|Video2|  |  | 
-|Workload is spread over the whole team (one team member is often Xtimes more productive than the others, but nevertheless, here is a track record that everyone is contributing a lot)|  |  |
-|Number of commits|  |  |
-|Number of commits: by different people|  |  |
-|Issues reports: there are **many**|  |  |
-|Issues are being closed|  |  |
-|DOI badge: exists|  |  |
+|Video1| 0 | Not Applicable | 
+|Video2| 0 | Not Applicable | 
+|Workload is spread over the whole team (one team member is often Xtimes more productive than the others, but nevertheless, here is a track record that everyone is contributing a lot)| 3 | GitHub Insights |
+|Number of commits| 3 | GitHub Insights |
+|Number of commits: by different people| 3 | GitHub Insights |
+|Issues reports: there are **many**| 0 | None |
+|Issues are being closed| 0 | None |
+|DOI badge: exists| 3 | README.md |
 |Docs: doco generated, format not ugly |  |  |
 |Docs: what: point descriptions of each class/function (in isolation) |  | 
 |Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z|  |  |
