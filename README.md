@@ -163,12 +163,22 @@ python code/main.py
 
 <h2 id = "help"> Help </h2>
 You can email any queries to the contributors - 
-  <ol>
+<br>
+<li>
     <a href = "mailto: divyagiridhar97@gmail.com">Divya Giridhar</a>
-  </ol>
-  <ol>
+</li>
+<li>
     <a href = "mailto: shreyastitus@gmail.com">Shreyas Titus</a>
-  </ol>
+</li>
+<li>
+    <a href = "mailto: dpatel49@ncsu.edu">Dhruv Patel</a>
+</li>
+<li>
+    <a href = "mailto: rghevar@ncsu.edu">Ravi Ghevariya</a>
+</li>
+<li>
+    <a href = "mailto: mrpatel8@ncsu.edu">Manan Patel</a>
+</li>
 <br>
 
 <hr>
