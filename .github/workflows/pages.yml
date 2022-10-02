@@ -37,7 +37,7 @@ jobs:
       - name: Generating Documentation
         run: |
           pip install pdoc
-          python -m pdoc ./code/* -o ./documention/code
+          python -m pdoc ./code/main/* -o ./documention/code
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
