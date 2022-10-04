@@ -47,6 +47,9 @@
 <a href="#ins"> Instructions to run the Tests and Display Results </a>
 </li>
 <li> 
+<a href="#docs"> Documentation </a> 
+</li>
+<li> 
 <a href="#licenses"> License </a> 
 </li>
 <li> 
@@ -153,6 +156,11 @@ python code/main.py
 `Example output` <br>
 <img src="data/images/Screenshot 2022-09-27 120034.png">
 <img src="data/images/Screenshot 2022-09-27 120106.png">
+
+<br>
+
+<h2 id = "docs"> Documentation </h2>
+For documentation, you can help yourself by referring to <a href = "https://divyagiridhar.github.io/CSC510_Group25_HW02/"> Documentation </a>
 
 <br>
 
