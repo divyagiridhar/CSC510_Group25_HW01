@@ -163,6 +163,7 @@ python code/main.py
 For documentation, you can help yourself by referring to <a href = "https://divyagiridhar.github.io/CSC510_Group25_HW02/"> Documentation </a>
 
 <br>
+<br>
 
 <h2 id = "licenses"> Licenses </h2>
 
