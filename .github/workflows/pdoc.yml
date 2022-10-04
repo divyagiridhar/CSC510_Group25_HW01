@@ -41,13 +41,14 @@ jobs:
         run: |
           pip install pdoc
           python -m pdoc ./code/* -o ./documentation/code
+          python -m pdoc ./tests/* -o ./documentation/tests
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './documentation/code'
+          path: './documentation/code, ./documentation/tests'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
